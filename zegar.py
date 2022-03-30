@@ -11,12 +11,12 @@ def wyswietlanie():
 
 root = tkinter.Tk()
 root.title("Zegar")
-root.geometry('340x170')
+root.geometry('300x120')
 
 l = tkinter.Label(root, text = 'Aktualna godzina: ', font = ('Calibri', 18), width = '20')
 l.pack()
 l2 = tkinter.Label(root, text = wyswietlanie, font=('Calibri', 30) ,bg = 'black', fg = 'green', height = '1', width = '10')
-l2.place(x = 65, y = 50)
+l2.place(x = 46, y = 40)
 
  
 
