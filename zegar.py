@@ -18,7 +18,5 @@ l.pack()
 l2 = tkinter.Label(root, text = wyswietlanie, font=('Calibri', 30) ,bg = 'black', fg = 'green', height = '1', width = '10')
 l2.place(x = 46, y = 40)
 
- 
-
 wyswietlanie()
 root.mainloop()
